@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "dwlions"
+    }
+  ],
+  "images": [
+    {
+      "id": 0,
+      "src": "https://i.pinimg.com/originals/74/f6/f4/74f6f4c206165ad27e0c2be9186cabe3.jpg"
+    },
+    {
+      "id": 1,
+      "src": "https://mirpozitiva.ru/uploads/posts/2017-04/medium/1492620921_06.jpg"
+    },
+    {
+      "id": 2,
+      "src": "https://i.mycdn.me/i?r=AzGBqNaF5OQp2lMpnhRx4DEFuNa8ffA-0s7dVNwD1ApIldjUuV0GcIKOUKJHhJh04to"
+    },
+    {
+      "id": 3,
+      "src": "http://korki.lol/wp-content/uploads/2017/07/smisl-00.jpg"
+    }
+  ]
+}

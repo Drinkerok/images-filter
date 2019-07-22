@@ -1,5 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <TextPage :content="content" />
 </template>
+
+<script>
+  import TextPage from '@/components/Text-page.vue';
+
+  export default {
+    name: "About",
+    components: {
+      TextPage
+    },
+    data: () => ({
+      content: {
+        header: 'О нас',
+        description: 'Хотите развить свой аккаунт в Instagram и привлечь подписчиков красивым стилем профиля? Мы, студенты ВШЭ, в рамках инновационного проекта разработали приложение, которое позволяет пользователям данной социальной сети выкладывать фотографии в соответствии с цветовой гаммой. Лента такого профиля с большой вероятностью произведёт впечатление случайного юзера, что заставит его подписаться на данный аккаунт.'
+      }
+    })
+  }
+</script>
